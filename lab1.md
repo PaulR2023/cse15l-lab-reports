@@ -30,7 +30,7 @@ A sentence or two explaining why you got that output (e.g. what was in the files
 Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 - In the case of simply ls, there are no errors and it simply prints out the directory which is lecture1. When I `ls lecture1` for example, I get the list of contents that is contained within the lecture1 directory and the output gives no error. However, when I try to still ls Hello.java, it still gives an error that says “No such file or directory”. But if I cd to lecture1 as a working directory, it will then print out the file name of Hello.java.
   
-![Image](Cat command resubmit .png)
+![Image](Cat command resubmit.png)
 
 SCORE:
 
