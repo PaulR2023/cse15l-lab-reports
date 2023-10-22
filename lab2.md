@@ -1,9 +1,11 @@
 `import java.io.IOException;`
+
 `import java.net.URI;`
 
 `class Handler implements URLHandler {`
-    `// The one bit of state on the server: a number that will be manipulated by`
-   ` // various requests.`
+
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.`
     int num = 1;
 
     String newWord = "";
@@ -39,11 +41,11 @@
     }
 }
 
-class NumberServer {
+`class NumberServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
-            return;
+            return;`
         }
 
         int port = Integer.parseInt(args[0]);
@@ -52,7 +54,7 @@ class NumberServer {
     }
 }`
 
-
+![Image](Hello message .png)
 Which methods in your code are called?
 
 -The method being called is the public String handleRequest(URI URL)
@@ -62,6 +64,7 @@ What are the relevant arguments to those methods, and the values of any relevant
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
+![Image](How are you .png)
 Which methods in your code are called?
 
 -The method being called is the public String handleRequest(URI URL)
