@@ -1,4 +1,4 @@
-# Hello, World 
+# Lab Report 1
 
 ![Image](CS15L Lab Report part 1 .png)
 
