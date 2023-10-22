@@ -59,26 +59,26 @@
 ![Image](Hello message .png)
 Which methods in your code are called?
 
--The method being called is the public String handleRequest(URI URL)
+    -The method being called is the public String handleRequest(URI URL)
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
--The relevant arguments with these methods are URL
+    -The relevant arguments with these methods are URL
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-
+    -
+    
 ![Image](How are you .png)
 Which methods in your code are called?
 
--The method being called is the public String handleRequest(URI URL)
+    -The method being called is the public String handleRequest(URI URL)
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
--The relevant argument within these methods are
+    -The relevant arguments with these methods are the String value that will print from the function of S
 
--The relevant arguments with these methods are the String value that will print from the function of S
-
--How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+    -
+    
 - The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
 ![Image](priv key .png)
 
@@ -89,4 +89,4 @@ What are the relevant arguments to those methods, and the values of any relevant
 ![Image](Log in without password.png)
 
 In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
-- The things I learned in week 2 or 3 that I didn’t know before are running the web servers and logging into the ssh keys since they’re pretty helpful and I learned a bit from how the web servers connect and how you can be able to modify the Google page. Since I’m a transfer student, this lesson is interesting and useful for the future which is good that I got base in.  
+    - The things I learned in week 2 or 3 that I didn’t know before are running the web servers and logging into the ssh keys since they’re pretty helpful and I learned a bit from how the web servers connect and how you can be able to modify the Google page. Since I’m a transfer student, this lesson is interesting and useful for the future which is good that I got base in.  
