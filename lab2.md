@@ -1,9 +1,9 @@
-`import java.io.IOException;
-import java.net.URI;
+`import java.io.IOException;`
+`import java.net.URI;`
 
-class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
+`class Handler implements URLHandler {
+    `// The one bit of state on the server: a number that will be manipulated by
+   ` // various requests.
     int num = 1;
 
     String newWord = "";
