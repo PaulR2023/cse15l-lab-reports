@@ -1,13 +1,14 @@
 # Lab Report 2
 
-`import java.io.IOException;`
+```
+import java.io.IOException;
 
-`import java.net.URI;`
+import java.net.URI;
 
-`class Handler implements URLHandler {`
+class Handler implements URLHandler {
 
     // The one bit of state on the server: a number that will be manipulated by
-    // various requests.`
+    // various requests.
     int num = 1;
 
     String newWord = "";
@@ -43,7 +44,7 @@
     }
 }
 
-`class NumberServer {
+class NumberServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
@@ -54,7 +55,8 @@
 
         Server.start(port, new Handler());
     }
-}`
+}
+```
 
 ![Image](Hello message .png)
 
@@ -64,9 +66,11 @@ Which methods in your code are called?
     -The method being called is the public String handleRequest(URI URL) method which will go through the else statement to see if the conditions of having the add-message?s=<string> which will print it out in the Server website with what is going to be printed with the string. 
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+   
     -The relevant arguments with these methods are URL url which will go through the if-else statement on the String[] parameters if there contains a = sign in the url and will then return the String.format which contains the arguments of num and value based on String typed with this command `/add-message?s=Hello`.
     
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+  
     - The values of the fields that get changed are when I add a string saying hello. It brought changes to the request with the String.format which will update the String based on this request. 
     
 ![Image](How are you .png)
@@ -74,7 +78,7 @@ How do the values of any relevant fields of the class change from this specific 
 
 Which methods in your code are called?
 
-    - -The method being called is the public String handleRequest(URI URL) method which will go through the else statement to see if the conditions of having the add-message?s=<How are you> which will print it out in the Server website with what is going to be printed with the string How are you. It was similar to the last question except I added a new word in the String to be able to add another string and increment it.  
+ -The method being called is the public String handleRequest(URI URL) method which will go through the else statement to see if the conditions of having the add-message?s=<How are you> which will print it out in the Server website with what is going to be printed with the string How are you. It was similar to the last question except I added a new word in the String to be able to add another string and increment it.  
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
