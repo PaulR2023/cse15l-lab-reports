@@ -88,7 +88,7 @@ The relevant arguments with these methods are the String value that will print f
 
 The way the fields of the class changed from this request was by how it was changed in the fields based on the argument that we provide on the String. After I inputted "Hello" to the web server. It updates the field in the String.format and changes the value. Then afterward, adding the argument, "How are you" would update the field of the newWord, therefore, it will print a new line with the string. 
 
-SCORE: 
+Part 1 SCORE: 
 ---
     
 - The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
@@ -100,11 +100,11 @@ SCORE:
 - A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 ![Image](Log in without password.png)
 
-SCORE:
+Part 2 SCORE:
 ---
 
 # In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
 The things I learned in week 2 or 3 that I didn’t know before are running the web servers and logging into the ssh keys since they’re pretty helpful to be able to log in without having to enter the password to connect to the server. I learned a bit about how the web servers connect and how you can be able to modify the Google page. This lesson is interesting and useful for the future which is good that I got to get a preview of what's to come next.  
 
-SCORE:
+Part 3 SCORE:
 ---
