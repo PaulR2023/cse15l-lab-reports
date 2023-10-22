@@ -71,7 +71,9 @@ The relevant arguments with these methods are URL url which will go through the 
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   
 The values of the fields that get changed are when I add a string saying hello. It brought changes to the request with the `String.format` which will update the String based on this request. 
-    
+
+--- 
+
 ![Image](How are you .png)
 
 # Which methods in your code are called?
