@@ -1,6 +1,6 @@
 # Lab Report 1
 
-![Image](CS15L Lab Report part 1 .png)
+![Image](Cd resubmit.png)
 
 SCORE:
 
@@ -16,7 +16,7 @@ Indicate whether the output is an error or not, and if it’s an error, explain 
 
 -The output of the code when I simply cd doesn’t give an error since cd by default is a home directory which could be explained by the “~”. The next case with it being `cd lecture1`, It doesn’t give an error at all and it simply just updates the directory to the “lecture1”. In the final case when I `cd Hello.java`, it states that Hello.java is “Not a directory”. The reason why it's an error is because Hello.java is simply a Java file and not a folder to which we can set the directory. This is why it gives this output. 
 
-![Image](CS15L ls command .png)
+![Image](ls command revision.png)
 
 SCORE:
 
@@ -30,7 +30,7 @@ A sentence or two explaining why you got that output (e.g. what was in the files
 Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 - In the case of simply ls, there are no errors and it simply prints out the directory which is lecture1. When I `ls lecture1` for example, I get the list of contents that is contained within the lecture1 directory and the output gives no error. However, when I try to still ls Hello.java, it still gives an error that says “No such file or directory”. But if I cd to lecture1 as a working directory, it will then print out the file name of Hello.java.
   
-![Image](CS15 Cat .png)
+![Image](Cat command resubmit .png)
 
 SCORE:
 
