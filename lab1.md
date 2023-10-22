@@ -42,3 +42,5 @@ A sentence or two explaining why you got that output (e.g. what was in the files
 
 Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 - When I simply entered `cat`, there was no error message but a blank line. When I `cat lecture1`, it simply states the lecture1: is a directory to explain the path and where it at. Finally, when I tried to `cat Hello.java` in the home directory, it simply said “No such file or directory” which is an error message. But when I `cd lecture1` and then `cat Hello.java`. It prints the file contents of what Hello.java contains inside. This is the output that I noticed within these three cases.  
+
+link: https://paulr2023.github.io/cse15l-lab-reports/lab1.html
