@@ -109,7 +109,7 @@ Part 1 SCORE:
 ---
     
 - The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
-![Image](priv key .png)
+![Image](SSH private key.png)
 
 - The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
 ![Image](Pub key login ieng6.png)
