@@ -70,16 +70,16 @@ The relevant arguments with these methods are URL url which will go through the 
 
 Feedback: In this specific case, what are the values of
 `num`, `newWord`, and `line`?
-# My response: The values of num are simply the integers that would increment and list the value of the number that it goes through to increment the number in the string by String.format function. The newWord is a string like "Hello" that would get a string and print with the line variable. The values of the line are printing the value of the string to print the String.format function which will return a new String with the newWord variable and increment the associated string. 
+# My response: The values of num are simply the integers that would increment and list the value of the number it goes through to increment the number in the string by String.format function. The newWord is a string like "Hello" that would get a string and print with the line variable. The values of the line are printing the string value to print the String.format function which will return a new String with the newWord variable and increment the associated string. 
 
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   
 The values of the fields that get changed are when I add a string saying hello. It brought changes to the request with the `String.format` which will update the String based on this request. 
 
 
- Feedback: In this specific case, what do the values of
+Feedback: In this specific case, what do the values of
 `num`, `newWord`, and `line` change to?
-# My response: The num values are to change to an integer of 1, then 2 and so on. The newWord changes with the String of Hello. The value of line will print the function with the associated number and String to be able to output into the server once you entered in the necessary parameters. 
+# My response: The num values are to change to an integer of 1, then 2, and so on. The newWord changes with the String of Hello. The value of the line will print the function with the associated number and String to be able to output into the server once you enter the necessary parameters. 
 
 ![Image](How are you .png)
 
@@ -94,7 +94,7 @@ The relevant arguments with these methods are the String value that will print f
 Feedback: In this specific case, what are the values of
 `num`, `newWord`, and `line`?
 
-# My response: The values of num is  , then the value of newWord turns out to be, the value of line will be 
+# My response: The value of num is adding another integer in the place to where 2 would be next in the list. Then the value of newWord would be hello and then How are you, the value of line will be printing out the value of the num and the newWord in the function of the String.format function. 
 
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
@@ -103,7 +103,7 @@ The way the fields of the class changed from this request was by how it was chan
 Feedback: In this specific case, what do the values of
 `num`, `newWord`, and `line` change to?
 
-My response: 
+# My response: The values of num change to print the integer associated with the string that the newWord changes to. It will update after 1 and then 2. While newWord changes to the string that gets added by line variable, and finally the line values would change or add the string of How are you and the num to be able to print it in the format to show in the server once we input the query.
 
 Part 1 SCORE: 
 ---
