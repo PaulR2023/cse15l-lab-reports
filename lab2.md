@@ -67,12 +67,19 @@ The method being called is the `public String handleRequest(URI URL)` method whi
 # What are the relevant arguments to those methods, and the values of any relevant fields of the class?
    
 The relevant arguments with these methods are URL url which will go through the if-else statement on the `String[] parameters` if there contains a = sign in the url and will then return the String.format which contains the arguments of num and value based on String typed with this command `/add-message?s=Hello`.
-    
+
+Feedback: In this specific case, what are the values of
+`num`, `newWord`, and `line`?
+My response: 
+
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   
 The values of the fields that get changed are when I add a string saying hello. It brought changes to the request with the `String.format` which will update the String based on this request. 
 
 --- 
+ Feedback: In this specific case, what do the values of
+`num`, `newWord`, and `line` change to?
+My response: 
 
 ![Image](How are you .png)
 
@@ -84,9 +91,19 @@ The method being called is the public String handleRequest(URI URL) method which
 
 The relevant arguments with these methods are the String value that will print from the function of String. The relevant arguments with these methods are URL url which will go through the if-else statement on the String[] parameters if there contains a = sign in the url and will then return the String.format which contains the arguments of num and value based on String typed with this command `/add-message?s=Hello` and goes through an extra step of going thru `newWord += line` which will print another string on top of the existing string.
 
+Feedback: In this specific case, what are the values of
+`num`, `newWord`, and `line`?
+
+My response: 
+
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 The way the fields of the class changed from this request was by how it was changed in the fields based on the argument that we provide on the String. After I inputted "Hello" to the web server. It updates the field in the String.format and changes the value. Then afterward, adding the argument, "How are you" would update the field of the newWord, therefore, it will print a new line with the string. 
+
+Feedback: In this specific case, what do the values of
+`num`, `newWord`, and `line` change to?
+
+My response: 
 
 Part 1 SCORE: 
 ---
