@@ -58,7 +58,14 @@ Pompt I gave to ChatGPT: 4 interesting command line options for grep
 
 The output of the response simply gave 4 different options
 
-![Image](
+![Image](grep -n.png)
+
+![Image](grep -o.png)
+
+![Image](grep -r .png)
+
+![Image](grep i command .png)
+
 For example, we saw the -name option for find in class. For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 
 That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. Many commands like these have pretty sophisticated behavior possible – it can take years to be exposed to and learn all of the possible tricks and inner workings.
