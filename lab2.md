@@ -79,7 +79,7 @@ The values of the fields that get changed are when I add a string saying hello. 
 
 Feedback: In this specific case, what do the values of
 `num`, `newWord`, and `line` change to?
-# My response: The num values are to change to an integer of 1, then 2, and so on. The newWord changes with the String of Hello. The value of the line will print the function with the associated number and String to be able to output into the server once you enter the necessary parameters. 
+# My response: The num values are to change to an integer of 1, then 2, and so on. The newWord changes with the String of Hello. The value of the line is a string that will print the with the String.function with the num Variable that's contained inside and 
 
 ![Image](How are you .png)
 
