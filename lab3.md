@@ -65,7 +65,7 @@ The output of the response simply gave 4 different options
 ![Image](grep -o 2.png)
 
 ![Image](grep -r .png)
-![Image](grep -r 2.png)
+![Image](grep -r 2 .png)
 
 ![Image](grep i command .png)
 ![Image](grep -i 2.png)
