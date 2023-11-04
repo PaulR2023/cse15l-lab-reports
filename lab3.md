@@ -68,17 +68,24 @@ For example, we saw the -name option for find in class. For each of those option
 That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. Many commands like these have pretty sophisticated behavior possible – it can take years to be exposed to and learn all of the possible tricks and inner workings.
 
 ![Image](grep -n.png)
-![Image](grep -i 2.png)
+![Image](grep n 2.png)
 
+-The -i command would be able to print the output of the passage. The reason why it could be useful is if we want to find a exerpt or a text. We an be able to find the keyword with the "" and be able to print the exerpt that contains the word and the string of it to where this could be useful in finding the file associated with the text and show the results. 
 
 ![Image](grep -o.png)
 ![Image](grep -o 2.png)
 
+-The -o command would be able to print out the case if it finds the string that's contained in the txt file. Its useful to find if the keyword is contained within the file and if it find the file. It will print the result in the terminal to show that the word is contained in the txt file. 
+
 ![Image](grep -r .png)
 ![Image](grep -r 2 .png)
 
+-The -r command would be able to print out the the directory that's here and the associated txt files that's will print from here. Its useful when we're trying to find the location of the the string by printing out the path to the directory.
+
 ![Image](grep i command .png)
 ![Image](grep -i 2.png)
+
+-The -i command would be able to print the output of the passage. The reason why it could be useful is if we want to find a exerpt or a text. We an be able to find the keyword with the "" and be able to print the exerpt that contains the word and the string.
 
 Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it. See the syllabus on Academic Integrity and how to cite sources like ChatGPT for this class.
 
