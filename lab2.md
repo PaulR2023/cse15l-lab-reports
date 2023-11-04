@@ -79,7 +79,7 @@ The values of the fields that get changed are when I add a string saying hello. 
 
 Feedback: In this specific case, what do the values of
 `num`, `newWord`, and `line` change to?
-# My response: The num values are to change to an integer of 1, then 2, and so on. The newWord changes with the String of Hello. The value of the line is a string that will print the with the String.function with the num Variable that's contained inside and 
+# My response: The num values are to change to an integer of 1, then 2, and so on. The newWord changes with from an empty string like "" to the String of "Hello". The value of the line is a string that will print the with the String.function with the num and line argument to that will print a string that it takes from the line variable. 
 
 ![Image](How are you .png)
 
@@ -103,7 +103,7 @@ The way the fields of the class changed from this request was by how it was chan
 Feedback: In this specific case, what do the values of
 `num`, `newWord`, and `line` change to?
 
-# My response: The values of num change to print the integer associated with the string that the newWord changes to. It will update after 1 and then 2. While newWord changes to the string that gets added by line variable, and finally the line values would change or add the string of How are you and the num to be able to print it in the format to show in the server once we input the query.
+# My response: The values of num change to print the integer associated with with it updating from 1, 2, and so on. But it goes through a if statement twice to print out the value "2". While newWord changes to the string that gets added by line variable which is "How are you", and finally the line values would change or add the string of "How are you" and the num to be able to print it in the format to show in the server once we input the query.
 
 Part 1 SCORE: 
 ---
