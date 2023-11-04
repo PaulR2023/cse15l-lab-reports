@@ -5,7 +5,7 @@ Provide:
 
 A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 
-```
+``` # This is the code
 import static org.junit.Assert.*;
 import org.junit.*;
 
@@ -25,7 +25,12 @@ public class ArrayTests {
   }
 }
 ```
-
+``` # This is the failed test 
+JUnit version 4.13.2
+.E.E
+Time: 0.016
+There were 2 failures:
+```
 An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 
 ```
@@ -60,8 +65,58 @@ public class ArrayTests {
 The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 ![Image]
 
+
 The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-: 
+The code with the bugs 
+```
+public class ArrayExamples {
+
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+The code with bugs fixed 
+```
+public class ArrayExamples {
+ 
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    int[] k = new int[arr.length];
+
+    for (int i = 0; i < arr.length; i++) {
+        k[i] = arr[arr.length - i - 1];
+    }
+
+    // It will try to copy the elements from k back to arr.
+    for (int i = 0; i < arr.length; i++) {
+        arr[i] = k[i];
+
+    }
+  }
+
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order 
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i++) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
 
 Briefly describe why the fix addresses the issue.
 : The reason why the fixes addressed the issue is that 
