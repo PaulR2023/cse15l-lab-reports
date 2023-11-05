@@ -98,13 +98,9 @@ public class ArrayExamples {
 
     for (int i = 0; i < arr.length; i++) {
         k[i] = arr[arr.length - i - 1];
-    }
-
-    // It will try to copy the elements from k back to arr.
-    for (int i = 0; i < arr.length; i++) {
         arr[i] = k[i];
-
     }
+
   }
 
   // Returns a *new* array with all the elements of the input array in reversed
@@ -119,7 +115,14 @@ public class ArrayExamples {
 ```
 
 # Briefly describe why the fix addresses the issue.
-The reason why the fixes addressed the issue is that with another for statement. It can try to search for the conditions to where it will check to see if the cases are right. 
+The reason why the fixes addressed the issue is that with another for statement. It can try to search for the conditions to where it will check to see if the cases are right. It double-checks the cases to make sure its able to verify if the reverse of the array has passed. This is why adding this block of code below is very helpful that it can copy the elements from the k back to arr to make sure its equal to the case and will then copy elements to verify.  
+
+ ```   // It will try to copy the elements from k back to arr.
+        arr[i] = k[i];
+```
+Prompt I gave to ChatGPT: 
+
+
 
 # Consider the commands less, find, and grep. Choose one of them. Online, find 4 interesting command-line options or alternate ways to use the command you chose. To find information about the commands, a simple Web search like “find command-line options” will probably give decent results. There is also a built-in command on many systems called man (short for “manual”) that displays information about commands; you can use man grep, for example, to see a long listing of information about how grep works. Also consider asking ChatGPT!
 
@@ -149,6 +152,7 @@ The reason why the fixes addressed the issue is that with another for statement.
 
 Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it. See the syllabus on Academic Integrity and how to cite sources like ChatGPT for this class.
 
+---
 Pompt I gave to ChatGPT: 4 interesting command line options for grep
 
-The output of the response simply gave 4 different options
+The output of the response simply gave 4 different options listing the examples of grep -n, grep -o, grep -i, and grep -r. The way I changed the output after it was produced is by using these templates as a guide to be able to use the grep commands and gain a better understanding as to how it works and I applied it to our lab. 
