@@ -25,7 +25,7 @@ public class ArrayTests {
   }
 }
 
-``` # This is the failed test 
+ # This is the failed test 
 JUnit version 4.13.2
 .E.E
 Time: 0.016
