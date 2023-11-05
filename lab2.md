@@ -70,7 +70,7 @@ The relevant arguments with these methods are URL url which will go through the 
 
 Feedback: In this specific case, what are the values of
 `num`, `newWord`, and `line`?
-- My response: The values of `num` are the integers that would increment and print the value of the integer which would then increment the number in the string by String.format function. The `newWord` is an empty string "" but would an updated string like "Hello" would print it with the line variable. The values of the `line` are printing the string value to print the `String.format` function which will return a new String with the newWord variable and increment with the `num` integer variable. 
+- My response: The values of `num` are the integers that would increment and print the value of the integer, which would then increment the number in the string String.format function that follows afterward. The `newWord` is an empty string "" but would an updated string like "Hello" would print it with the line variable. The values of the `line` are printing the string value to print the `String.format` function which will return a new String with the `newWord` variable and increment with the `num` integer variable. 
 
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   
@@ -78,7 +78,7 @@ The values of the fields that get changed are when I add a string saying hello. 
 
 Feedback: In this specific case, what do the values of
 `num`, `newWord`, and `line` change to?
-- My response: The num values are to change to an integer of 1, then 2, and so on. The newWord changes with from an empty string like "" to the String of "Hello". The value of the `line` is a string that will print the String.function with the num and line argument to that will print a string that it takes from the line variable. 
+- My response: The `num` values are changing from an integer of 1, then 2, and so on. The newWord changes from an empty string like "" to the String of "Hello". The value of the `line` is a string that will print the String.function with the `num` and `value` argument that will print a string that it takes from the line variable. 
 
 ---
 
@@ -104,7 +104,7 @@ The way the fields of the class changed from this request was by how it was chan
 Feedback: In this specific case, what do the values of
 `num`, `newWord`, and `line` change to?
 
-- My response: The values of `num` changes to print the integer associated with it changing from the integer of 1, 2, and so on. But it goes through an if statement twice to print out the value "2" which could change the format. While `newWord` changes to the string that gets added by the line variable which is "How are you", and the `line` values would change or add the string of "How are you" and the num to be able to print it in the format to show in the server once we input the query.
+- My response: The values of `num` change to print the integer associated with it changing from the integer of 1, 2, and so on. But it goes through an if statement twice to print out the value "2" which could change the format when running the server. While `newWord` changes to the string that gets added by the line variable which is "How are you", and the `line` values would change or add the string of "How are you" and the number to be "2" to be able to print it in the format to show in the server once we input the necessary parameters in the query.
 
 Part 1 SCORE: 
 ---
