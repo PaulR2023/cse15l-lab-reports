@@ -24,7 +24,7 @@ public class ArrayTests {
     assertArrayEquals(new int[]{4, 1}, ArrayExamples.reversed(input1));
   }
 }
-```
+
 ``` # This is the failed test 
 JUnit version 4.13.2
 .E.E
