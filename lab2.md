@@ -70,7 +70,7 @@ The relevant arguments with these methods are URL url which will go through the 
 
 Feedback: In this specific case, what are the values of
 `num`, `newWord`, and `line`?
-- My response: The values of `num` are the integers that would increment and print the value of the integer, which would then increment the number in the string String.format function that follows afterward. The `newWord` is an empty string "" but would an updated string like "Hello" would print it with the line variable. The values of the `line` are printing the string value to print the `String.format` function which will return a new String with the `newWord` variable and increment with the `num` integer variable. 
+- My response: The values of `num` are the integers that would increment and print the value of the integer, which would then increment the number in the string String.format function that follows afterward. The `newWord` is an empty string "" but would update a string like "Hello" to print it with the line variable. The values of the `line` are printing the string value to print the `String.format` function which will return a new String with the `newWord` variable and increment with the `num` integer variable. 
 
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   
