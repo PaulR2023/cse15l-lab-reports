@@ -5,7 +5,7 @@ Provide:
 
 # A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 
-``` # This is the code
+```
 import static org.junit.Assert.*;
 import org.junit.*;
 
