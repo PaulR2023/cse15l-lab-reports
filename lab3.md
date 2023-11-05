@@ -65,7 +65,6 @@ public class ArrayTests {
 # The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 ![Image](Failed JUNIT test.png)
 
-
 # The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 The code with the bugs 
 ```
@@ -115,14 +114,14 @@ public class ArrayExamples {
 ```
 
 # Briefly describe why the fix addresses the issue.
-The reason why the fixes addressed the issue is that with another for statement. It can try to search for the conditions to where it will check to see if the cases are right. It double-checks the cases to make sure its able to verify if the reverse of the array has passed. This is why adding this block of code below is very helpful that it can copy the elements from the k back to arr to make sure its equal to the case and will then copy elements to verify.  
+The reason why the fixes addressed the issue is that with another for statement. It can try to search for the conditions to where it will check to see if the cases are right. It double-checks the cases to make sure its able to verify if the reverse of the array has passed. This is why adding this block of code below is very helpful it can copy the elements from the k back to arr to make sure it's equal to the case and will then copy elements to verify.  
 
  ```   // It will try to copy the elements from k back to arr.
         arr[i] = k[i];
 ```
 Prompt I gave to ChatGPT: 
-
-
+![Image](Screenshot 2023-11-05 081212.png)
+- The way I changed the output was that I simply removed the unnecessary for satement that was repeating as the conditions are already the same as the one above. It could be a way to double-check to make sure the condition is true but once the condition passes through. It should be more than sufficient to run arr[i] = k[i]
 
 # Consider the commands less, find, and grep. Choose one of them. Online, find 4 interesting command-line options or alternate ways to use the command you chose. To find information about the commands, a simple Web search like “find command-line options” will probably give decent results. There is also a built-in command on many systems called man (short for “manual”) that displays information about commands; you can use man grep, for example, to see a long listing of information about how grep works. Also consider asking ChatGPT!
 
@@ -133,22 +132,22 @@ Prompt I gave to ChatGPT:
 ![Image](grep -n.png)
 ![Image](grep n 2.png)
 
--The -i command would be able to print the output of the passage. The reason why it could be useful is if we want to find a exerpt or a text. We an be able to find the keyword with the "" and be able to print the exerpt that contains the word and the string of it to where this could be useful in finding the file associated with the text and show the results. 
+-The `grep -i` command would be able to print the output of the passage. The reason why it could be useful is if we want to find an exerpt or a text. We a be able to find the keyword with the "" and be able to print the excerpt that contains the word and the string of it to where this could be useful in finding the file associated with the text and showing the results. 
 
 ![Image](grep -o.png)
 ![Image](grep -o 2.png)
 
--The -o command would be able to print out the case if it finds the string that's contained in the txt file. Its useful to find if the keyword is contained within the file and if it find the file. It will print the result in the terminal to show that the word is contained in the txt file. 
+-The `grep -o` command would be able to print out the case if it finds the string that's contained in the txt file. It's useful to find if the keyword is contained within the file and if it finds the file. It will print the result in the terminal to show that the word is contained in the .txt file. 
 
 ![Image](grep -r .png)
 ![Image](grep -r 2 .png)
 
--The -r command would be able to print out the the directory that's here and the associated txt files that's will print from here. Its useful when we're trying to find the location of the the string by printing out the path to the directory.
+-The `grep -r` command would be able to print out the directory that's here and the associated txt files that will print from here. It's useful when we're trying to find the location of the string by printing out the path to the directory.
 
 ![Image](grep i command .png)
 ![Image](grep -i 2.png)
 
--The -i command would be able to print the output of the passage. The reason why it could be useful is if we want to find a exerpt or a text. We an be able to find the keyword with the "" and be able to print the exerpt that contains the word and the string.
+-The `grep -i` command would be able to print the output of the passage. The reason why it could be useful is if we want to find a text. We can find the keyword with the "" and be able to print the excerpt that contains the word and the string.
 
 Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it. See the syllabus on Academic Integrity and how to cite sources like ChatGPT for this class.
 
