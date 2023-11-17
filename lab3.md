@@ -32,15 +32,6 @@ Time: 0.016
 There were 2 failures:
 ```
 # An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-
-```
-JUnit version 4.13.2
-
-Time: 0.037
-
-OK (2 tests)
-
-```
 feedback: Missing non-failure inducing test
 My response 
 ```
@@ -50,18 +41,25 @@ import org.junit.*;
 public class ArrayTests {
 	@Test 
 	public void testReverseInPlace() {
-    int[] input1 = {3, 5, 8};
+    int[] input1 = {1};
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{8, 5, 3}, input1);
+    assertArrayEquals(new int[]{1}, input1);
 	}
 
 
   @Test
   public void testReversed() {
-    int[] input1 = {2, 4};
-    assertArrayEquals(new int[]{4, 2}, ArrayExamples.reversed(input1));
+    int[] input1 = {0};
+    assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input1));
   }
 }
+
+$ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
+JUnit version 4.13.2
+..
+Time: 0.023
+
+OK (2 tests)
 ```
 
 # The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
