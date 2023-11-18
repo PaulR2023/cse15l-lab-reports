@@ -18,10 +18,10 @@ Run the tests, demonstrating that they fail
 Keys pressed: <bash test.sh> <Enter> 
 
 Edit the code file to fix the failing test
-Keys pressed: <vim ListExamples.java><Enter><><><>
+Keys pressed: <vim ListExamples.java> <Enter> <Ctrl+D> <Ctrl+D> <8 down arrow> <7 right arrows> <i> <backspace> <2>
 
 Run the tests, demonstrating that they now succeed
-Keys pressed:
+Keys pressed: 
 
 Commit and push the resulting change to your Github account (you can pick any commit message!)
 Keys pressed: 
