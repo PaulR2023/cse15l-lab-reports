@@ -36,7 +36,7 @@ Summary: I opened vim as a text editor and have to use the keyboard to navigate 
 ![Image](step 7.png)
 
 8.)Run the tests, demonstrating that they now succeed
-Keys pressed: <up><up><Enter>
+Keys pressed: <up><up><Enter> 
 
 Summary: I did the test again and it all said OK and that the test has finally passed.
 ![Image](step 8.png)
