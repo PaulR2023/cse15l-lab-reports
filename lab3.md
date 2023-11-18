@@ -134,25 +134,79 @@ That makes 8 total examples, all focused on a single command. There should be tw
 feedback: For each command you run (8), please include a description of what exactly the command is doing and how it can be useful.
 My response: 
 
-![Image](grep -n.png)
-![Image](grep n 2.png)
+`
+$ grep -i "PLANES" */chapter-1.txt
 
+"WE HAVE SOME PLANES"
+    They were planning to hijack these planes and turn them into large guided missiles, loaded with up to 11,400 gallons of jet fuel. By 8:00 A.M. on the morning of Tuesday, September 11,2001, they had defeated all the security layers that America's civil aviation security system then had in place to prevent a hijacking. The Hijacking of American 11 American Airlines Flight 11 provided nonstop service from Boston to Los Angeles. On September 11, Captain John Ogonowski and First Officer Thomas McGuinness piloted the Boeing 767. It carried its full capacity of nine flight attendants. Eighty-one passengers boarded the flight with them (including the five terrorists).22 The plane took off at 7:59. Just before 8:14, it had climbed to 26,000 feet, not quite its initial assigned cruising altitude of 29,000 feet. All communications and flight profile data were normal. About this time the "Fasten Seatbelt" sign would usually have been turned off and the flight attendants would have begun preparing for cabin service.
+`
+
+`
+$ grep -i "randomized" */1468-6708-3-3.txt
+
+        ] randomized placebo-controlled clinical trial have  
+        myocardial infarction and randomized them to 16 weeks of
+        randomized trial to suggest that statins confer clinical
+        is currently only one ongoing randomized placebo-controlled
+        the first four months, patients will be randomized to
+
+`
 -The `grep -i` command would be able to print the output of the passage. The reason why it could be useful is if we want to find an exerpt or a text. We a be able to find the keyword with the "" and be able to print the excerpt that contains the word and the string of it to where this could be useful in finding the file associated with the text and showing the results. 
 
-![Image](grep -o.png)
-![Image](grep -o 2.png)
+`
+$ grep -o "campaign" */chapter-13.4.txt
+campaign
+`
+`
+$ grep -o "concerning" */*/Progress_report.txt
+concerning
+`
 
 -The `grep -o` command would be able to print out the case if it finds the string that's contained in the txt file. It's useful to find if the keyword is contained within the file and if it finds the file. It will print the result in the terminal to show that the word is contained in the .txt file. 
 
-![Image](grep -r .png)
-![Image](grep -r 2 .png)
+`
+$ grep -r "ethnicity" * /Sessions2-PDF.txt
+911report/chapter-13.4.txt:            3. On KSM's relationship to Yousef and his ethnicity, see CIA analytic report, Khalid
+911report/chapter-13.4.txt:                recruit pool, but also argues that operatives' ethnicity was important for symbolic
+911report/chapter-7.txt:                figures, however, have stated that ethnicity generally was not a factor in the    
+biomed/1471-2261-1-6.txt:        race/ethnicity also were not associated (p >.05) with
+biomed/1471-2288-2-10.txt:          These include age, gender, ethnicity, presenting
+biomed/1471-2288-2-10.txt:        study populations by age or ethnicity, and decide to
+biomed/1471-2296-3-18.txt:          Caucasian ethnicity; 2) be free from diagnosed endocrine
+biomed/1471-2296-3-18.txt:          ethnicity; 2) be between the ages of 32-38 y; 3) be free
+biomed/1471-2334-2-1.txt:          ethnicity. Forty of fifty-nine (67.8%) UHC participants
+biomed/1471-2377-3-4.txt:            race/ethnicity.
+`
 
+`
+$ grep -r "Salt Lake" */*/5_Legal_Groups.txt
+Salt Lake City Tribune
+Five independent Salt Lake organizations that provide legal
+The Legal Aid Society of Salt Lake, the Disability Law Center,
+`
 -The `grep -r` command would be able to print out the directory that's here and the associated txt files that will print from here. It's useful when we're trying to find the location of the string by printing out the path to the directory.
 
-![Image](grep i command .png)
-![Image](grep -i 2.png)
+`
+$ grep -n "race" */chapter-2.txt
+50:                "the United States rushed out of Somalia in shame and disgrace." Citing the Soviet
+53:                shall-with the grace of Allah-prevail over the Americans." He went on to warn that
+131:            He repeatedly calls on his followers to embrace martyrdom since "the walls of
+218:                power by a pious public stance and an embrace of unprecedented Islamist influence on
+279:                around the world. It's a faith that has made brothers and sisters of every race.
+743:                prevented from addressing the Muslims," but expressing relief that "by the grace of
+`
 
--The `grep -i` command would be able to print the output of the passage. The reason why it could be useful is if we want to find a text. We can find the keyword with the "" and be able to print the excerpt that contains the word and the string.
+`
+$ grep -n "race" */chapter-2.txt
+50:                "the United States rushed out of Somalia in shame and disgrace." Citing the Soviet
+53:                shall-with the grace of Allah-prevail over the Americans." He went on to warn that
+131:            He repeatedly calls on his followers to embrace martyrdom since "the walls of
+218:                power by a pious public stance and an embrace of unprecedented Islamist influence on
+279:                around the world. It's a faith that has made brothers and sisters of every race.
+743:                prevented from addressing the Muslims," but expressing relief that "by the grace of
+`
+
+-The `grep -n` command would be able to print the output of the passage. The reason why it could be useful is if we want to find a text. We can find the keyword with the "" and be able to print the excerpt that contains the word and the string.
 
 Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it. See the syllabus on Academic Integrity and how to cite sources like ChatGPT for this class.
 
