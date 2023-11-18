@@ -9,15 +9,19 @@ Keys pressed: <up><up><up><up><enter>, <up><up><up><up><enter> The javac -cp .:l
 Add this lab report to your Github Pages site, and submit a PDF of it as usual.
 
 4.) Log into ieng6
-<ssh cs15lfa23bh@ieng6.ucsd.edu> <Enter>
+Keys pressed: <ssh cs15lfa23bh@ieng6.ucsd.edu> <Enter>
 
-Clone your fork of the repository from your Github account (using the SSH URL)
+5.)Clone your fork of the repository from your Github account (using the SSH URL)
+Keys pressed: <git clone git@github.com:PaulR2023/lab7.git> <Enter>
 
 Run the tests, demonstrating that they fail
-
+Keys pressed: <bash test.sh> <Enter> 
 
 Edit the code file to fix the failing test
+Keys pressed: 
 
 Run the tests, demonstrating that they now succeed
+Keys pressed:
 
 Commit and push the resulting change to your Github account (you can pick any commit message!)
+Keys pressed: 
