@@ -12,6 +12,7 @@ Add this lab report to your Github Pages site, and submit a PDF of it as usual.
 4.) Log into ieng6
 Keys pressed: <ssh cs15lfa23bh@ieng6.ucsd.edu> <Enter>
 
+
 Summary: I'm trying to log in to the ieng6 server without having to be prompted for a password. 
 
 5.)Clone your fork of the repository from your Github account (using the SSH URL)
