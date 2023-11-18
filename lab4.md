@@ -18,7 +18,7 @@ Run the tests, demonstrating that they fail
 Keys pressed: <bash test.sh> <Enter> 
 
 Edit the code file to fix the failing test
-Keys pressed: 
+Keys pressed: <vim ListExamples.java><Enter><><><>
 
 Run the tests, demonstrating that they now succeed
 Keys pressed:
