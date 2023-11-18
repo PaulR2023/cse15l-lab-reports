@@ -33,7 +33,7 @@ There were 2 failures:
 ```
 # An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 feedback: Missing non-failure inducing test
-My response 
+My response:
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -116,7 +116,8 @@ public class ArrayExamples {
 # Briefly describe why the fix addresses the issue.
 The reason why the fixes addressed the issue is that with another for statement. It can try to search for the conditions to where it will check to see if the cases are right. It double-checks the cases to make sure its able to verify if the reverse of the array has passed. This is why adding this block of code below is very helpful it can copy the elements from the k back to arr to make sure it's equal to the case and will then copy elements to verify.  
 
- ```   // It will try to copy the elements from k back to arr.
+```
+// It will try to copy the elements from k back to arr.
         arr[i] = k[i];
 ```
 Prompt I gave to ChatGPT: 
@@ -151,17 +152,21 @@ $ grep -i "randomized" */1468-6708-3-3.txt
         the first four months, patients will be randomized to
 
 ```
+
+```
 -The `grep -i` command would be able to print the output of the passage. The reason why it could be useful is if we want to find an exerpt or a text. We a be able to find the keyword with the "" and be able to print the excerpt that contains the word and the string of it to where this could be useful in finding the file associated with the text and showing the results. 
 
 ```
 $ grep -o "campaign" */chapter-13.4.txt
 campaign
 ```
+
 ```
 $ grep -o "concerning" */*/Progress_report.txt
 concerning
 ```
 
+```
 -The `grep -o` command would be able to print out the case if it finds the string that's contained in the txt file. It's useful to find if the keyword is contained within the file and if it finds the file. It will print the result in the terminal to show that the word is contained in the .txt file. 
 
 ```
@@ -185,7 +190,9 @@ Five independent Salt Lake organizations that provide legal
 The Legal Aid Society of Salt Lake, the Disability Law Center,
 ````
 
+```
 -The `grep -r` command would be able to print out the directory that's here and the associated txt files that will print from here. It's useful when we're trying to find the location of the string by printing out the path to the directory.
+```
 
 ```
 $ grep -n "race" */chapter-2.txt
@@ -216,7 +223,7 @@ Pompt I gave to ChatGPT: 4 interesting command line options for grep
 
 The output of the response simply gave 4 different options listing the examples of grep -n, grep -o, grep -i, and grep -r. The way I changed the output after it was produced is by using these templates as a guide to be able to use the grep commands and gain a better understanding as to how it works and I applied it to our lab.
 
-![Image] (grep help 1.png)
-![Image] (grep help 2.png)
+![Image](grep help 1.png)
+![Image](grep help 2.png)
 
 #Part 2 score:
