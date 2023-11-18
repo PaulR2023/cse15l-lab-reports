@@ -33,6 +33,7 @@ Keys pressed: <vim ListExamples.java> <Enter> <Ctrl+D> <Ctrl+D> <8 down arrow> <
 <:> <wq> <Enter>
 
 Summary: I opened vim as a text editor and have to use the keyboard to navigate and insert the number 2 to fix the buggy code that is happening and then I save and quit.
+
 ![Image](step 7.png)
 
 8.)Run the tests, demonstrating that they now succeed
