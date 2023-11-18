@@ -39,6 +39,7 @@ Summary: I opened vim as a text editor and have to use the keyboard to navigate 
 Keys pressed: <up><up><Enter> 
 
 Summary: I did the test again and it all said OK and that the test has finally passed.
+
 ![Image](step 8.png)
 
 9.)Commit and push the resulting change to your Github account (you can pick any commit message!)
