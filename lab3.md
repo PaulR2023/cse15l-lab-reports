@@ -132,9 +132,6 @@ For example, we saw the -name option for find in class. For each of those option
 
 That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. Many commands like these have pretty sophisticated behavior possible – it can take years to be exposed to and learn all of the possible tricks and inner workings.
 
-feedback: For each command you run (8), please include a description of what exactly the command is doing and how it can be useful.
-My response: 
-
 ```
 $ grep -i "PLANES" */chapter-1.txt
 
@@ -152,9 +149,10 @@ $ grep -i "randomized" */1468-6708-3-3.txt
         the first four months, patients will be randomized to
 
 ```
+feedback: For each command you run (8), please include a description of what exactly the command is doing and how it can be useful.
+My response:
 
-```
--The `grep -i` command would be able to print the output of the passage with the words containing the String. Like the example of doing both grep -i for both the PlANES and randomized are going to print out the contents of the String that's contained within the .txt files which is what it's trying to search for and print out the sentence with the words like PLANES and randomized in a passage. The reason why it could be useful is if we want to find an excerpt or a text. We a be able to find the keyword with the "" and be able to print the excerpt that contains the word and be able to narrow our search with the keywords and what the contents are about and contain inside which could be useful for trying to find an important String in this case. 
+-What the `grep -i` command is **doing** is that it would be able to print the output of the passage with the words containing the String. Like the example of doing both grep -i for both the PlANES and randomized going to print out the contents of the String that's contained within the .txt files which is what it's trying to search for and print out the sentence with the words like PLANES and randomized in the output of the passage from the .txt file. The reason why it could be **useful** is if we want to find an excerpt or a text. We would be able to find the keyword with the "" and be able to print the excerpt that contains the word and be able to narrow our search and show the contents of the .txt with the "PLANES" and "randomized" of the contents inside which could be useful for trying to find an important String in this case of which we are trying to search for. 
 
 ```
 $ grep -o "campaign" */chapter-13.4.txt
@@ -165,9 +163,10 @@ campaign
 $ grep -o "concerning" */*/Progress_report.txt
 concerning
 ```
+feedback: For each command you run (8), please include a description of what exactly the command is doing and how it can be useful.
+My response:
 
-```
--The `grep -o` command would be able to print out the case if it finds the string that's contained in the txt file. Like the example of grep -o each finding a string that could contain both campaign and concerning. If it's true that it's able to find the string, it will return in the terminal that it found the string, and it's contained inside the .txt file with the example of campaign returning the String of campaign, while the concerning could be the same that it also returns concerning. It's useful to find if the keyword is contained within the file and if it doesn't contain the word we're trying to look for, it will not print anything and will give an indication that nothing that you're trying to search for is contained inside. It will print the result in the terminal to show that the word is contained in the .txt file. 
+-What the `grep -o` command is **doing** is that would be able to print out the case if it finds the string that's contained in the .txt file. Like the example of grep -o each finding a string that could contain both "campaign" and "concerning". If it's true that it's able to find the string, it will return in the terminal that it found the string, and it's contained inside the .txt file with the example of campaign returning the String of campaign, while the concerning could be the same that it also returns concerning. It's **useful** to find if the keyword is contained within the file and if it doesn't contain the word we're trying to look for, it will not print anything and will give an indication that the string is not to be found when you're trying to search for it. It will print the result in the terminal to show that the word is contained in the .txt file. 
 
 ```
 $ grep -r "ethnicity" * /Sessions2-PDF.txt
@@ -189,9 +188,12 @@ $ grep -r "Nothing" * /Sessions1-PDF.txt
 911report/chapter-2.txt:                in the world today and the worst terrorists are the Americans. Nothing could stop
 biomed/rr191.txt:        Nothing is known about the relationship between
 government/About_LSC/commission_report.txt:services. Nothing in the congressional debate discussing the
-````
+```
 
--The `grep -r` command would be able to print out the directory and the associated txt files and will print the output here. Like in the example of using grep -r on trying to search and print for both ethnicity and Nothing and then it will print the location of the words with the directory and path and show the output of the contents that contain the keyword as shown above. It's useful when we're trying to find the location of the string by printing out the path to the directory. This is helpful to narrow down the search of where to find the string and be able to find the location of it quicker. 
+feedback: For each command you run (8), please include a description of what exactly the command is doing and how it can be useful.
+My response:
+
+-What the `grep -r` command is **doing** is that it would be able to print out the directory and the associated .txt files and will print the output here. Like in the example of using grep -r on trying to search and print for both ethnicity and Nothing, if the string is to be found, then it will print the location of the words with the directory and path and show the output of the contents that contain the keyword as shown above. It's **useful** for when we're trying to find the location of the string by printing out the path to the directory. This is helpful to narrow down the search of where to find the string within the directory and be able to find the location of it quicker. 
 
 ```
 $ grep -n "race" */chapter-1.txt
@@ -209,7 +211,10 @@ $ grep -n "race" */chapter-2.txt
 743:                prevented from addressing the Muslims," but expressing relief that "by the grace of
 ```
 
--The `grep -n` command would be able to print the output of the passage with its associated line number within the .txt file. Like in this case for using `grep -n` to find both the key string "race" from different chapters of the .txt files to see which line number the word is at and be able to find its line number that has these words that we are looking for. The reason why it could be useful is if we want to find a string and want to know where to find the location in the line number to narrow our search quicker. We can find the keyword with the "" and be able to print the excerpt that contains the word.
+feedback: For each command you run (8), please include a description of what exactly the command is doing and how it can be useful.
+My response:
+
+-What the `grep -n` command is **doing** is that would be able to print the output of the passage with its associated line number within the .txt file. In this case, using `grep -n` to find both the key string "race" from different chapters of the .txt files to see which line number the word is at and be able to find its line number that has these words that we are looking for. The reason why it could be **useful** is if we want to find a string and want to know where to find the location in the line number to narrow our search quicker. We can find the keyword with the "" and be able to print the excerpt that contains the word with the line numbers.
 
 Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it. See the syllabus on Academic Integrity and how to cite sources like ChatGPT for this class.
 
@@ -217,6 +222,9 @@ Along with each option/mode you show, cite your source for how you found out abo
 Pompt I gave to ChatGPT: 4 interesting command line options for grep
 
 The output of the response simply gave 4 different options listing the examples of grep -n, grep -o, grep -i, and grep -r. The way I changed the output after it was produced is by using these templates as a guide to be able to use the grep commands and gain a better understanding as to how it works and I applied it to our lab.
+
+Feedback: What were the example outputs of ChatGPT? 
+My response:
 
 ![Image](grep help 1.png)
 ![Image](grep help 2.png)
