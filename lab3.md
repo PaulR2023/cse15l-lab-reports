@@ -216,4 +216,6 @@ Pompt I gave to ChatGPT: 4 interesting command line options for grep
 
 The output of the response simply gave 4 different options listing the examples of grep -n, grep -o, grep -i, and grep -r. The way I changed the output after it was produced is by using these templates as a guide to be able to use the grep commands and gain a better understanding as to how it works and I applied it to our lab.
 
+
+
 #Part 2 score:
