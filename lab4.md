@@ -33,3 +33,7 @@ Summary: I did the test again and it all said OK and that the test has finally p
 9.)Commit and push the resulting change to your Github account (you can pick any commit message!)
 Keys pressed: <git add .> <Enter> <git commit -m "Changes index1 to index2"> <Enter> <git push> <Enter>
 Summary: I did the git commands to be able to see my edits in gitHub. 
+
+The full keypresses from step 4 to 9.
+<ssh cs15lfa23bh@ieng6.ucsd.edu> <Enter> I'm trying to log in to the ieng6 server without having to be prompted for a password., <git clone git@github.com:PaulR2023/lab7.git> <Enter>, <bash test.sh> <Enter> I had to fork the repository to my own and then have to git clone for lab7 and it should be able to transfer all the files here. , 
+<vim ListExamples.java> <Enter> <Ctrl+D> <Ctrl+D> <down arrow><down arrow><down arrow><down arrow><down arrow><down arrow><down arrow><down arrow> <right arrows><right arrows><right arrows><right arrows><right arrows><right arrows><right arrows> <i> <backspace> <2> <Esc> <:> <wq> <Enter> I opened vim as a text editor and have to use the keyboard to navigate and insert the number 2 to fix the buggy code that is happening and then I save and quit., <up><up><Enter> I did the test again and it all said OK and that the test has finally passed., <git add .> <Enter> <git commit -m "Changes index1 to index2"> <Enter> <git push> <Enter>, I did the git commands to be able to see my edits in gitHub.
