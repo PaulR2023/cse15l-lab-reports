@@ -154,7 +154,7 @@ $ grep -i "randomized" */1468-6708-3-3.txt
 ```
 
 ```
--The `grep -i` command would be able to print the output of the passage. The reason why it could be useful is if we want to find an exerpt or a text. We a be able to find the keyword with the "" and be able to print the excerpt that contains the word and the string of it to where this could be useful in finding the file associated with the text and showing the results. 
+-The `grep -i` command would be able to print the output of the passage with the words containing the String. Like the example of doing both grep -i for both the PlANES and randomized are going to print out the contents of the String that's contained within the .txt files which is what it's trying to search for and print out the sentence with the words like PLANES and randomized in a passage. The reason why it could be useful is if we want to find an excerpt or a text. We a be able to find the keyword with the "" and be able to print the excerpt that contains the word and be able to narrow our search with the keywords and what the contents are about and contain inside which could be useful for trying to find an important String in this case. 
 
 ```
 $ grep -o "campaign" */chapter-13.4.txt
@@ -167,7 +167,7 @@ concerning
 ```
 
 ```
--The `grep -o` command would be able to print out the case if it finds the string that's contained in the txt file. It's useful to find if the keyword is contained within the file and if it finds the file. It will print the result in the terminal to show that the word is contained in the .txt file. 
+-The `grep -o` command would be able to print out the case if it finds the string that's contained in the txt file. Like the example of grep -o each finding a string that could contain both campaign and concerning. If it's true that it's able to find the string, it will return in the terminal that it found the string, and it's contained inside the .txt file with the example of campaign returning the String of campaign, while the concerning could be the same that it also returns concerning. It's useful to find if the keyword is contained within the file and if it doesn't contain the word we're trying to look for, it will not print anything and will give an indication that nothing that you're trying to search for is contained inside. It will print the result in the terminal to show that the word is contained in the .txt file. 
 
 ```
 $ grep -r "ethnicity" * /Sessions2-PDF.txt
@@ -184,37 +184,32 @@ biomed/1471-2377-3-4.txt:            race/ethnicity.
 ```
 
 ```
-$ grep -r "Salt Lake" */*/5_Legal_Groups.txt
-Salt Lake City Tribune
-Five independent Salt Lake organizations that provide legal
-The Legal Aid Society of Salt Lake, the Disability Law Center,
+$ grep -r "Nothing" * /Sessions1-PDF.txt
+911report/chapter-13.2.txt:                airlines. Nothing stands out about any of them with respect to the only security
+911report/chapter-2.txt:                in the world today and the worst terrorists are the Americans. Nothing could stop
+biomed/rr191.txt:        Nothing is known about the relationship between
+government/About_LSC/commission_report.txt:services. Nothing in the congressional debate discussing the
 ````
 
+-The `grep -r` command would be able to print out the directory and the associated txt files and will print the output here. Like in the example of using grep -r on trying to search and print for both ethnicity and Nothing and then it will print the location of the words with the directory and path and show the output of the contents that contain the keyword as shown above. It's useful when we're trying to find the location of the string by printing out the path to the directory. This is helpful to narrow down the search of where to find the string and be able to find the location of it quicker. 
+
 ```
--The `grep -r` command would be able to print out the directory that's here and the associated txt files that will print from here. It's useful when we're trying to find the location of the string by printing out the path to the directory.
+$ grep -n "race" */chapter-1.txt
+48:    About 20 minutes later, at 7:35, another passenger for Flight 77, Hani Hanjour, placed two carry-on bags on the X-ray belt in the Main Terminal's west checkpoint, and proceeded, without alarm, through the metal detector. A short time later, Nawaf and Salem al Hazmi entered the same checkpoint. Salem al Hazmi cleared the metal detector and was permitted through; Nawaf al Hazmi set off the alarms for both the first and second metal detectors and was then hand-wanded before being passed. In addition, his over-the-shoulder carry-on bag was swiped by an explosive trace detector and then passed. The video footage indicates that he was carrying an unidentified item in his back pocket, clipped to its rim.
+194:    Passengers on three flights reported the hijackers' claim of having a bomb. The FBI told us they found no trace of explosives at the crash sites. One of the passengers who mentioned a bomb expressed his belief that it was not real. Lacking any evidence that the hijackers attempted to smuggle such illegal items past the security screening checkpoints, we believe the bombs were probably fake.
 ```
 
 ```
 $ grep -n "race" */chapter-2.txt
 50:                "the United States rushed out of Somalia in shame and disgrace." Citing the Soviet
 53:                shall-with the grace of Allah-prevail over the Americans." He went on to warn that
-131:            He repeatedly calls on his followers to embrace martyrdom since "the walls of
+131:            He repeatedly calls on his followers to embrace martyrdom since "the walls of41
 218:                power by a pious public stance and an embrace of unprecedented Islamist influence on
 279:                around the world. It's a faith that has made brothers and sisters of every race.
 743:                prevented from addressing the Muslims," but expressing relief that "by the grace of
 ```
 
-```
-$ grep -n "race" */chapter-2.txt
-50:                "the United States rushed out of Somalia in shame and disgrace." Citing the Soviet
-53:                shall-with the grace of Allah-prevail over the Americans." He went on to warn that
-131:            He repeatedly calls on his followers to embrace martyrdom since "the walls of
-218:                power by a pious public stance and an embrace of unprecedented Islamist influence on
-279:                around the world. It's a faith that has made brothers and sisters of every race.
-743:                prevented from addressing the Muslims," but expressing relief that "by the grace of
-```
-
--The `grep -n` command would be able to print the output of the passage. The reason why it could be useful is if we want to find a text. We can find the keyword with the "" and be able to print the excerpt that contains the word and the string.
+-The `grep -n` command would be able to print the output of the passage with its associated line number within the .txt file. Like in this case for using `grep -n` to find both the key string "race" from different chapters of the .txt files to see which line number the word is at and be able to find its line number that has these words that we are looking for. The reason why it could be useful is if we want to find a string and want to know where to find the location in the line number to narrow our search quicker. We can find the keyword with the "" and be able to print the excerpt that contains the word.
 
 Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it. See the syllabus on Academic Integrity and how to cite sources like ChatGPT for this class.
 
