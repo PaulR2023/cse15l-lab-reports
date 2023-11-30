@@ -6,6 +6,7 @@ The original post from a student with a screenshot showing a symptom and a descr
 # My response:
 
 Post: I'm encountering a problem with the test that it did compile and didn't show any failures. However when I'm trying to calculate all the values here for a,b, and c. When I did the calculation for the result, I expected the value of 29 but I got a value of 3.0 instead which is I don't get why its this case. I thought it would make sense when we use this "^" to square the value of the number. Any guidance would be appreciated.   
+![Image](Calculation.png)
 
 ---
 A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
@@ -18,6 +19,7 @@ Another screenshot/terminal output showing what information the student got from
 # My response
 
 It looks like a bug is that it gives an incorrect value and its not really performing the calculations since for (a)^2 it looks like to be a 0 since a is 2 which is compared with ^ so it returns 0 since they're both the same value. For both (b)^2 and (c)^2 it returned a different value since its not equal to 2 on the ^ operation. 
+![Image](Feedback TA.png) 
 
 At the end, all the information needed about the setup including:
 The file & directory structure needed
