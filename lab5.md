@@ -22,13 +22,17 @@ It looks like a bug is that it gives an incorrect value and its not really perfo
 ![Image](Feedback TA.png) 
 
 At the end, all the information needed about the setup including:
-The file & directory structure needed
+The file & directory structure needed.
 
+- The file is calculation.java, calculation.sh, the lab directory is lab9.
+  
 The contents of each file before fixing the bug
-
 The full command line (or lines) you ran to trigger the bug
+![Image](Calculation.png)
+![Image](bash.png)
 
 A description of what to edit to fix the bug
+![Image](
 
 You should actually set up and run the scenario from your screenshots. It should involve at least a Java file and a bash script. Describing the bug should involve reading some output at the terminal resulting from running one or more commands. Design an error that produces more interesting output than a single message about a syntax or unbound identifier error – showcase some interesting wrong behavior! Feel free to set this up by cloning and breaking some existing code like the grading script or code from class, or by designing something of your own from scratch, etc.
 
