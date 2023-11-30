@@ -32,11 +32,13 @@ The full command line (or lines) you ran to trigger the bug
 ![Image](bash.png)
 
 A description of what to edit to fix the bug
-![Image](
+![Image](Fixed bug.png)
 
 You should actually set up and run the scenario from your screenshots. It should involve at least a Java file and a bash script. Describing the bug should involve reading some output at the terminal resulting from running one or more commands. Design an error that produces more interesting output than a single message about a syntax or unbound identifier error – showcase some interesting wrong behavior! Feel free to set this up by cloning and breaking some existing code like the grading script or code from class, or by designing something of your own from scratch, etc.
+# My response
+This is a good test since this is an output and is a bug that doesn't give the correct results when we're trying to run the program. This is a good way to see the problem of the bug before 
 
 # Part 2 – Reflection
 In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
 
-Something I learned that I never knew before is logging into a server and being able to make changes with VIM in just the terminal. This is really nice and cool to see that we can just really make an edit in the terminal. This is useful for making edits within the server. The autograder is interesting in that we can see what the TA/graders use to be able to check our work and give feedback if there is something wrong while its compiling and running.
+Something I learned that I never knew before is logging into a server and being able to make changes with VIM in just the terminal. This is nice and cool to see that we can just really make an edit in the terminal with the server when we don't have access to a editor like Visual Stuido Code. This is useful for making edits within the server. The autograder is interesting in that we can see what the TA/graders use to be able to check our work and give feedback if there is something wrong while it's compiling and running.
