@@ -3,10 +3,14 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 
 The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)
 
-Post: I'm encountering a problem with the test on both the reverseInPlace method that not the reverse input is expecting a 1 but I would expect it to be 7 to be able to show that it both is equal to when we assert on the reverseInPlace function to give the input that it will passed since its the same number and length, just backwards, I would appreciate some guidence here on how to fix this bug? 
+# My response:
+
+Post: I'm encountering a problem with the test that it did compile and didn't show any failures. However when I'm trying to calculate all the values here for a,b, and c. When I did the calculation for the result, I expected the value of 29 but I got a value of 3.0 instead which is I don't get why its this case. I thought it would make sense when we use this "^" to square the value of the number. Any guidance would be appreciated.   
 
 A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
+# My response
 
+Hello, I noticed on your code that this "^" doesn't mean square, it's actually a XOR operator that you're showing that if the value is different, then it will return a number, otherwise it would be zero. It looks like it might've been comparing an "a" variable to a 2. I would recommend doing the System.out.println() on each of the expression. Hopefully it can help you see why the value is not what you expect it to be. 
 
 Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 
