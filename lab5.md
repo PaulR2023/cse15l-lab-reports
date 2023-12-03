@@ -5,20 +5,20 @@ The original post from a student with a screenshot showing a symptom and a descr
 
 # My response:
 
-Post: I'm encountering a problem with the test that it did compile and didn't show any failures. However when I'm trying to calculate all the values here for a,b, and c. When I did the calculation for the result, I expected the value of 29 but I got a value of 3.0 instead which is I don't get why its this case. I thought it would make sense when we use this "^" to square the value of the number. Any guidance would be appreciated.   
+Post: I'm encountering a problem with the test that it did compile and didn't show any failures. However when I'm trying to calculate all the values here for a,b, and c. When I did the calculation for the result, I expected the value of 29 but I got a value of 3.0 instead which is I don't get why it's this case. I thought it would make sense when we use this "^" to square the value of the number but it gave me some arbitrary number. Any guidance would be appreciated.   
 ![Image](Calculation.png)
 
 ---
 A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
 # My response
 
-Hello, I noticed on your code that this "^" doesn't mean square, it's actually a XOR operator that you're showing that if the value is different, then it will return a number, otherwise it would be zero. It looks like it might've been comparing an "a" variable to a 2. I would recommend doing the System.out.println() on each of the letter integer that the value output when performing the expression. Hopefully it can help you see why the value is not what you expect it to be. 
+Hello, I noticed on your code that this "^" doesn't mean square, it's actually a XOR operator that you're showing that if the value is different, then it will return a number, otherwise it would be zero. It looks like it might've been comparing an "a" variable to a 2. I would recommend doing the System.out.println() on each of the letter integers that the value output when performing the expression. Hopefully, it can help you see why the value is not what you expect it to be. 
 
 ---
 Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 # My response
 
-It looks like a bug is that it gives an incorrect value and its not really performing the calculations since for (a)^2 it looks like to be a 0 since a is 2 which is compared with ^ so it returns 0 since they're both the same value. For both (b)^2 and (c)^2 it returned a different value since its not equal to 2 on the ^ operation. 
+It looks like a bug in that it gives an incorrect value and it's not really performing the calculations since for (a)^2 it looks like the value is 0 since a is 2 which is compared with ^ so it returns 0 since they're both the same value. For both (b)^2 and (c)^2 it returned a different value since its not equal to 2 on the ^ operation. 
 ![Image](Feedback TA.png) 
 
 At the end, all the information needed about the setup including:
@@ -41,4 +41,5 @@ This is a good test since this is an output and is a bug that doesn't give the c
 # Part 2 – Reflection
 In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
 
-Something I learned that I never knew before is logging into a server and being able to make changes with VIM in just the terminal. This is nice and cool to see that we can just really make an edit in the terminal with the server when we don't have access to a editor like Visual Stuido Code. This is useful for making edits within the server. The autograder is interesting in that we can see what the TA/graders use to be able to check our work and give feedback if there is something wrong while it's compiling and running.
+# My response
+Something I learned that I never knew before is logging into a server and being able to make changes with VIM in just the terminal. This is nice and cool to see that we can just really make an edit in the terminal with the server when we don't have access to an editor like Visual Studio Code. This is useful for making edits within the server. The autograder is interesting in that we can see what the TA/graders use to be able to check our work and give feedback if there is something wrong while it's compiling and running.
