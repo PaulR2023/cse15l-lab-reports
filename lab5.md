@@ -36,7 +36,7 @@ A description of what to edit to fix the bug
 
 You should actually set up and run the scenario from your screenshots. It should involve at least a Java file and a bash script. Describing the bug should involve reading some output at the terminal resulting from running one or more commands. Design an error that produces more interesting output than a single message about a syntax or unbound identifier error – showcase some interesting wrong behavior! Feel free to set this up by cloning and breaking some existing code like the grading script or code from class, or by designing something of your own from scratch, etc.
 # My response
-This is a good test since this is an output and is a bug that doesn't give the correct results when we're trying to run the program. This is a good way to see the problem of the bug before 
+This is a good test since this is an output and is a bug that doesn't give the correct results when we're trying to run the program. This is a good way to see the problem of the bug since all the test could pass and run but it could give a value that isn't correct or expected to work. 
 
 # Part 2 – Reflection
 In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
